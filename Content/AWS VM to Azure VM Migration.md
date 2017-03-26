@@ -1,22 +1,22 @@
-##AWS Virtual Machine to Azure Virtual Machine Migration
+## AWS Virtual Machine to Azure Virtual Machine Migration
 
-###OVERVIEW
-This article describes how to migrate a Windows or Linux driven Virtual Machine from Amazon Web Services (AWS) to Azure Cloud Services. We describe the two most popular migration flows: the first requires quite a bit of manual work while the second is the latest method which uses the latest features of the Azure Cloud Services.  This article is also available in PDF format [here] (media/PDF-files/AWS VM to Azure VM migration.pdf).
+### OVERVIEW
+This article describes how to migrate a Windows or Linux driven Virtual Machine from Amazon Web Services (AWS) to Azure Cloud Services. We describe the two most popular migration flows: the first requires quite a bit of manual work while the second is the latest method which uses the latest features of the Azure Cloud Services.  This article is also available in PDF format [here](media/PDF-files/AWS VM to Azure VM migration.pdf).
 
-If you have feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Content/issues).
+If you have feedback on the documentation please log the feedback via an [issue](https://github.com/Azure-for-Startups/Content/issues).
 
-###<span id="h.e2w4a2lg01ys" class="anchor"></span>Migration via the VHD file export-conversion-import
+### <span id="h.e2w4a2lg01ys" class="anchor"></span>Migration via the VHD file export-conversion-import
 This is a standard migration flow using export/import of the machine image. AWS allows you to download a VM from their service. The downloaded image can be converted to format-ready for Hyper-V use and uploaded to Azure, however, this would involve a lengthy down time of the service during the download, conversion, and upload. Also the process involves utilizing a Disk2VHD tool which is available for Windows only. For Linux you will have to use an alternative tool (dd or other).  
 
-###<span id="h.9sexun7bmltl" class="anchor"></span>Migration using the Azure site recovery service
-Another way is to use the [free Microsoft Migration Accelerator] (https://azure.microsoft.com/en-us/blog/introducing-microsoft-migration-accelerator/), which uses the same technology as [Azure Site Recovery] (https://azure.microsoft.com/en-us/services/site-recovery/) and is based on the [InMage Scout] (http://windowsitpro.com/azure/inmage-scout) technology.  
+### <span id="h.9sexun7bmltl" class="anchor"></span>Migration using the Azure site recovery service
+Another way is to use the [free Microsoft Migration Accelerator](https://azure.microsoft.com/en-us/blog/introducing-microsoft-migration-accelerator/), which uses the same technology as [Azure Site Recovery](https://azure.microsoft.com/en-us/services/site-recovery/) and is based on the [InMage Scout](http://windowsitpro.com/azure/inmage-scout) technology.  
 
 <span id="h.818wt9bahtb8" class="anchor"></span>
 
-##PREREQUISITES
+## PREREQUISITES
 As a starting point, you need to have the Virtual Machine on AWS.   
 
-##<span id="h.u2kzsqyau5hx" class="anchor"></span>GOALS
+## <span id="h.u2kzsqyau5hx" class="anchor"></span>GOALS
 Migrate the existing VM instance from AWS to Azure.  
 
 <span id="h.dlff5qr67o7i" class="anchor"></span>MIGRATION VIA THE VHD
@@ -28,11 +28,11 @@ as one video file.
 
 <span id="h.c5rpsdy8g2ak" class="anchor"></span>
 
-##MIGRATIONS USING THE AZURE SITE RECOVERY SERVICE
+## MIGRATIONS USING THE AZURE SITE RECOVERY SERVICE
 
 ![](media/04/image1.png)
 
-##<span id="h.qat45t5bjxwh" class="anchor"></span>Migration of the Windows
+## <span id="h.qat45t5bjxwh" class="anchor"></span>Migration of the Windows
 Driven VM
 Several good resources have been published, among our top recommendations are:  
 
@@ -87,11 +87,11 @@ VM
 
 We recommend using [*this*](https://azure.microsoft.com/en-us/documentation/articles/site-recovery-migrate-aws-to-azure/) guide by Rayne Wiselman, with a few recommended adjustments:
 <ol type="1">
-<li>Ensure that you have installed the latest Linux Integration Services (LIS) before you install the Master Target Server software. You can find the latest version of LIS along with instructions on how to install it [*here*](https://www.microsoft.com/en-us/download/details.aspx?id=46842).  The PDF file (“Linux Integration Services v4-0-11.pdf”) includes an installation guide.   </li>
+<li>Ensure that you have installed the latest Linux Integration Services (LIS) before you install the Master Target Server software. You can find the latest version of LIS along with instructions on how to install it <a href="https://www.microsoft.com/en-us/download/details.aspx?id=46842"><i>here</i></a>.  The PDF file (“Linux Integration Services v4-0-11.pdf”) includes an installation guide.   </li>
 
-<li>During install of the Additional Software for the Master Target Server use the following link:    </li> [*http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR\_UA\_8.4.0.0\_RHEL6-64\_GA\_28Jul2015\_release.tar.gz*](http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR_UA_8.4.0.0_RHEL6-64_GA_28Jul2015_release.tar.gz)
+<li>During install of the Additional Software for the Master Target Server use the following link:    </li> <a href="http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR\_UA\_8.4.0.0\_RHEL6-64\_GA\_28Jul2015\_release.tar.gz"><i>http://download.microsoft.com/download/7/E/D/7ED50614-1FE1-41F8-B4D2-25D73F623E9B/Microsoft-ASR_UA_8.4.0.0_RHEL6-64_GA_28Jul2015_release.tar.gz</i></a>
 
-<p>To download via the widget instead of the original one use the following link: [*http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409*](http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409)</p>
+<p>To download via the widget instead of the original one use the following link: <a href="http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409"><i>http://go.microsoft.com/fwlink/?LinkID=529757&clcid=0x409</i></a></p>
 <p>Also don't forget to create the directory and extract the archive as it contains the needed batch of files inside.</p>
 
 <li>Be sure to enable the password based SSH authentication on the machine, because AWS enables authentication by key by default.  </li>

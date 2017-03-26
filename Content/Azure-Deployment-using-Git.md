@@ -1,10 +1,10 @@
 # Using GIT and GIT Workflows to Add Azure Web Apps
 
-##Abstract
+## Abstract
 
 This document provides an overview of available recommended documentation regarding publishing Web applications on Azure using GIT workflow.
 
-##Using GIT and GIT Workflows to Add Azure Web Apps
+## Using GIT and GIT Workflows to Add Azure Web Apps
 
 It is very important to establish integration between production, staging environments and source control system for a smooth and automated publishing process. Many startups are using GIT and GIT based systems (like GitHub, BitBucket and many others) as a source control system in their development process and lifecycle. Below is a brief review of available documentation which can be a good starting point for startups hosting their web applications on Azure and using GIT based source control systems.
 

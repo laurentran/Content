@@ -1,13 +1,13 @@
-##NoSQL databases and Microsoft Azure
+## NoSQL databases and Microsoft Azure
 
-###OVERVIEW
+### OVERVIEW
 This article provides a brief overview of NoSQL databases on a Microsoft Azure Cloud environment. Migration of the NoSQL databases from AWS or another cloud provider to Microsoft Azure generally involves two steps: infrastructure migration (deployment of the DB engine) and data migration. 
 
-This article is also available in PDF format [here] (media/PDF-files/MongoDB Azure Migration.pdf).
+This article is also available in PDF format [here](media/PDF-files/MongoDB Azure Migration.pdf).
 
-Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue] (https://github.com/Azure-for-Startups/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
+Please feel free to fork the code base for your purpose and if you have any feedback on the demo code or documentation please log an [issue](https://github.com/Azure-for-Startups/Azure-IoT-demo/issues) and note what document or code base section the feedback is related to.
 
-###DEPLOYMENT
+### DEPLOYMENT
 There are two most common NoSQL solutions to be deployed in Microsoft Azure: Microsoft DocumentDB and MongoDB. 
 
 - DocumentDB is a true schema-free NoSQL document database service provided by Microsoft in Azure Cloud. Here is the starting point of the documentation: https://azure.microsoft.com/enus/documentation/articles/documentdb-introduction/ 
@@ -38,7 +38,7 @@ The Azure Cloud Computing stack provides the following levels: Software as a Ser
  	</tr>
   </table>
 
-###MongoDB IaaS/PaaS deployment
+### MongoDB IaaS/PaaS deployment
 MongoDB can be deployed on a Virtual Machine in Azure (IaaS) running Windows or Linux OS. 
 
 - A step-by-step guide outlining how to install MongoDB on a Windows machine can be found here: https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-install-mongodb-windowsserver/ 
@@ -47,10 +47,10 @@ MongoDB can be deployed on a Virtual Machine in Azure (IaaS) running Windows or 
 - Microsoft provides complete end-to-end scenario of web application which uses MongoDB at the backend. It includes the step-by-step documentation, code snippets and full source code, which is publically available here: https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnetstore-data-mongodb-vm/ 
 
 
-###MongoDB SaaS deployment
+### MongoDB SaaS deployment
 MongoLab (https://mongolab.com/azure/) provides a MongoDB-as-a-Service on Microsoft Azure. 
 
-###DATA MIGRATION
+### DATA MIGRATION
 The following data migration scenarios are available, depending on the target NoSQL database: 
 
 - Standard MongoDB backup and restore procedure:  https://docs.mongodb.org/manual/tutorial/backupand-restore-tools/ 

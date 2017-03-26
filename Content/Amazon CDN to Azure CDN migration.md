@@ -1,17 +1,14 @@
-##Amazon CDN to Azure CDN Migration
+## Amazon CDN to Azure CDN Migration
 
-This article illustrates the basics of how to migrate existing content delivery from Amazon CDN to Azure CDN. The article illustrates how to prepare a test environment and perform migration tasks on this environment. The migration can be a partial or a complete one. The partial migration means you keep an origin for CDN in Amazon untouched and use the Azure CDN as content delivery only. The complete migration means you copy the origin data into Azure Storage and Azure CDN uses this storage as its origin. Let’s have a look on both solutions.  
-This article is also available in PDF format [here] (media/PDF-files/Amazon CDN to Azure CDN migration.pdf).
+This article illustrates the basics of how to migrate existing content delivery from Amazon CDN to Azure CDN. The article illustrates how to prepare a test environment and perform migration tasks on this environment. The migration can be a partial or a complete one. The partial migration means you keep an origin for CDN in Amazon untouched and use the Azure CDN as content delivery only. The complete migration means you copy the origin data into Azure Storage and Azure CDN uses this storage as its origin. Let’s have a look on both solutions.  This article is also available in PDF format [here](media/PDF-files/Amazon CDN to Azure CDN migration.pdf).
 
-If you have any feedback on the documentation please log the feedback via an [issue] (https://github.com/Azure-for-Startups/Content/issues).
+If you have any feedback on the documentation please log the feedback via an [issue](https://github.com/Azure-for-Startups/Content/issues).
 
-<br>
-###PREREQUISITES 
-==============
+### PREREQUISITES 
+
 We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft Windows 7-10 is required to execute PowerShell script. 
 
-###CREATE A TEST ENVIRONMENT ON AMAZON AWS 
-========================================
+### CREATE A TEST ENVIRONMENT ON AMAZON AWS 
 
 1\. Login to [https://console.aws.amazon.com.](https://console.aws.amazon.com/) To create a test Amazon S3 storage please click on Services and then on S3.
 
@@ -68,8 +65,7 @@ We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft 
 
 ![](media/01/image8.jpg)
 
-###PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE 
-=====================================================
+### PARTIAL MIGRATION - AZURE CDN WITH AMAZON S3 STORAGE 
 
 1\. Login to https://manage.windowsazure.com. To create a new CDN endpoint please click on NEW --> APP SERVICES --> CDN --> QUICK CREATE. Select the ORIGIN TYPE as Custom Origin. Type a S3 bucket URL as ORIGIN URL. Press CREATE.
 
@@ -88,8 +84,7 @@ We need an active Amazon S3 account and Microsoft Azure subscription. Microsoft 
 
 ![](media/01/image12.jpg)
 
-###COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
-======================================================================================
+### COMPLETE MIGRATION - COPY DATA TO AZURE STORAGE AND USE IT AS AN ORIGIN FOR AZURE CDN 
 
 1\.  Login to [https://manage.windowsazure.com.](https://manage.windowsazure.com/) To create a new storage account, click on NEW > DATA SERVICES > STORAGE > QUICK CREATE. Assign a unique URL, select location and press on CREATE STORAGE ACCOUNT.
 

@@ -2,15 +2,17 @@
 - **[Startup Offers](https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
 
 The purpose of this GitHub repository is to help **startups** quickly engage and get up and running on Azure services.  You'll find links to key documentation, tutorials and code packets.  If you have feedback on the content please submit an **[issue](https://github.com/Azure-for-Startups/Content/issues)**.
-<br><br>
+
 ## Table of Contents
-   <table class="table table-bordered table-striped table-hover border-0px">
-   <tr>
-	<td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure">Getting Started on Azure</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure">Working with Azure</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure">Migrating to Azure</a></b></td>
-	<td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaasre">Infrastructure Services</a></b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas">Platform Services</a></b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br> </td>
-	<td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture">Cloud Architecture</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links">Additional Useful Tools and Links</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm">Azure Resource Manager</a></b></td>	
+
+<table class="table table-bordered table-striped table-hover border-0px">
+  <tr>
+	  <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#getting-started-on-azure">Getting Started on Azure</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#working-with-azure">Working with Azure</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#migrating-to-azure">Migrating to Azure</a></b></td>
+	  <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#infrastructure-services-iaasre">Infrastructure Services</a></b><br>&nbsp;&nbsp;&nbsp;Compute, Networking, Storage<br><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#platform-services-paas">Platform Services</a></b><br>&nbsp;&nbsp;&nbsp;Web & Mobile, Data, <br>&nbsp;&nbsp;&nbsp;Intelligence & Analytics, IoT<br> </td>
+	  <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#cloud-architecture">Cloud Architecture</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#additional-useful-tools--links">Additional Useful Tools and Links</a><br><a href="https://github.com/Azure-for-Startups/Content/blob/master/README.md#azure-resource-manager-arm">Azure Resource Manager</a></b></td>	
 	</tr>
 </table>
+
 ## Getting Started on Azure
 - **[Get started on Azure](https://azure.microsoft.com/en-us/get-started/)** – Link to Azure.com Getting Started page.
 - **[Interactive Azure Map](https://aka.ms/azmap)** - Interactive overview of services available on Azure. Click on a service to learn about it.
@@ -20,23 +22,21 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 - **[Startup Offers](https://azure.microsoft.com/en-us/pricing/member-offers/bizspark-startups/)** - Get free cloud credits and offers through Microsoft’s BizSpark program.
 - **[Microsoft Azure for Amazon AWS Cloud professionals: Getting Started](https://channel9.msdn.com/Shows/TechNet+Radio/TNR1667)** - Showcase and demo of Microsoft Azure features and comparison to Amazon Web Services to see how they match up.
 
-   <table class="table table-bordered table-striped table-hover">
-        <tr>
-          <td valign="top">
-  <h3>:video_camera:<i> Getting started on Azure video series</i></h3>
+<table class="table table-bordered table-striped table-hover">
+  <tr>
+    <td valign="top">
+    <h3>:video_camera:<i> Getting started on Azure video series</i></h3>
     -    <b><a href="https://channel9.msdn.com/Series/BizSpark-StartUp-Stories/Getting-Started-on-Azure-Overview-of-the-Azure-portal">Overview of the Azure Portal</a></b> - An introduction to the Azure portal, covering navigation and key elements of the portal including the Azure dashboard, marketplace, and resources.<br>
     -    <b><a href="https://channel9.msdn.com/Series/BizSpark-StartUp-Stories/Getting-Started-on-Azure-Resource-Groups">Resource Groups</a></b> - Learn what to consider and how to create and manage a resource group on the Azure portal.<br>
     -    <b><a href="https://channel9.msdn.com/Series/BizSpark-StartUp-Stories/Getting-Started-on-Azure-Storage-Accounts">Storage Accounts</a></b> - Learn how to create and manage a storage account on the Azure portal and select the storage option that is right for you.<br>
     -    <b><a href="https://channel9.msdn.com/Series/BizSpark-StartUp-Stories/Getting-Started-on-Azure-Virtual-Networks">Virtual Networks</a></b> - Learn how to set up a virtual network including IP address blocks, DNS settings, security policies, and routing tables on the Azure portal.<br>
     -    <b><a href="https://channel9.msdn.com/Series/BizSpark-StartUp-Stories/Getting-Started-on-Azure-Virtual-Machines">Virtual Machines</a></b> - Learn how to set up and configure an Ubuntu virtual machine on the Azure portal.<br>
     -    <b><a href="https://azure.microsoft.com/en-us/get-started/">Additional Getting Started on Azure Videos</a></b> - View additional Getting Started on Azure videos such as Windows Server Virtual Machines, Web Apps, SQL Database on Azure and more.
-	   </td>
-         </tr>
-    </table> 
-
+	  </td>     
+  </tr>
+</table> 
 
 ![](https://github.com/Azure-for-Startups/Content/blob/master/Content/media/AzureMap.png)<p> </p>
-<p> </p>
 
 ## Working with Azure
 - **[Azure Portal](https://portal.azure.com/)** - The best way to get started is with the Azure portal, a web based interface for managing Azure.
@@ -55,15 +55,15 @@ The purpose of this GitHub repository is to help **startups** quickly engage and
 -	**[MongoDB to Azure Migration resources](https://github.com/Azure-for-Startups/Content/blob/master/Content/MongoDB%20Azure%20Migration.md)**  
 
   <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-	  <td valign="top"><b><a href="Content/AWS VM to Azure VM Migration.md">AWS VM to Azure VM migration</a></b></td>
-	  <td valign="top"><b><a href="Content/AWS RDS to Azure SQL migration.md">AWS RDS to Azure SQL migration</a></b></td>
-          <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo">AWS S3 to Azure Blob Storage migration</a></b></td>
-          <td valign="top"><b><a href="Content/Amazon CDN to Azure CDN migration.md">AWS CDN to Azure CDN migration</a></b></td>
-	  <td valign="top"><b><a href="Content/ASP.NET Web App migration from AWS to Azure.md">ASP.NET Web App migration from AWS to Azure</a></b></td>
-	 </tr>
-     </table>
+  <table class="table table-bordered table-striped table-hover">
+	  <tr>
+	    <td valign="top"><b><a href="Content/AWS VM to Azure VM Migration.md">AWS VM to Azure VM migration</a></b></td>
+	    <td valign="top"><b><a href="Content/AWS RDS to Azure SQL migration.md">AWS RDS to Azure SQL migration</a></b></td>
+      <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Amazon-S3-to-Azure-Storage-demo">AWS S3 to Azure Blob Storage migration</a></b></td>
+      <td valign="top"><b><a href="Content/Amazon CDN to Azure CDN migration.md">AWS CDN to Azure CDN migration</a></b></td>
+	    <td valign="top"><b><a href="Content/ASP.NET Web App migration from AWS to Azure.md">ASP.NET Web App migration from AWS to Azure</a></b></td>
+	  </tr>
+  </table>
 
 ### *Tools & Services*
 - **[AWCopy](https://github.com/cicorias/AWCopy)** - Azure service that provides parallelized copies of S3 files in Amazon Web Services to Azure blobs.
@@ -84,14 +84,14 @@ Infrastructure as a service (IaaS) refers to the compute, networking and storage
 -	**[Docker Documentation](https://docs.docker.com/)** - Starting point for documentation on Dockers including Docker for MAC, Windows, Linux, etc.
 -	**[Docker VM Extension](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-dockerextension?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json)** - Create a Docker environment in Azure using the Docker VM extension.
 
-   <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-	<td valign="top"><b><a href="https://github.com/Azure-for-Startups/Containers-on-Azure-demo">Containers on Azure</a></b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
-          <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/">Deploy to Azure using the Docker VM Extension</a></b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
-           <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/">Ruby on Rails web app on Azure VM</a></b> - How to host a Ruby on Rails website on Azure using a Linux virtual machine</td>
-</tr>
-     </table>
+  <h3><i> Tutorials and Sample code</i></h3>
+  <table class="table table-bordered table-striped table-hover">
+	  <tr>
+	    <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Containers-on-Azure-demo">Containers on Azure</a></b> - Perform heavy computational tasks (for example video or audio encoding, hash calculation, data encryption, etc.) and make the process scalable and cost effective using Docker containers.</td>
+      <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-dockerextension/">Deploy to Azure using the Docker VM Extension</a></b> - use Resource Manager templates to deploy the Docker VM Extension in a custom, production-ready environment that you define</td>
+      <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-classic-ruby-rails-web-app/">Ruby on Rails web app on Azure VM</a></b> - How to host a Ruby on Rails website on Azure using a Linux virtual machine</td>
+    </tr>
+  </table>
 
 ## Networking
 -	**[Virtual Networks (Vnets) Overview](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-overview/)** – Learn about Azure Virtual Networks and how to create them.
@@ -118,13 +118,13 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Azure Deployment Using Git](https://github.com/Azure-for-Startups/Content/blob/master/Content/Azure-Deployment-using-Git.md)** – Learn the basics and understand available resources to support publishing web applications on Azure using Git workflows.
 - **[Azure Media Services (AMS) Overview](https://azure.microsoft.com/en-us/documentation/articles/media-services-overview/)** – Learn about Azure Media Services and how to build scalable media management and delivery apps.
 
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-	  <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Notification-Hub-demo">Notification Hub demo</a></b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
-          <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md">PHP, Node.js, and Python</a></b> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
-	</tr>
-     </table>
+<h3><i>Tutorials and Sample code</i></h3> 
+  <table class="table table-bordered table-striped table-hover">
+	  <tr>
+	    <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Notification-Hub-demo">Notification Hub demo</a></b> - Deliver push notification messages to mobile applications on iOS, Android and Windows Phone platforms using Azure Notification Hub</td>
+      <td valign="top"><b><a href="https://github.com/Azure-for-Startups/Content/blob/master/Content/Deploy%20Node.js%20PHP%20and%20Python%20Web-apps-on-Azure.md">PHP, Node.js, and Python</a></b> - Deploy PHP, Node.js and Python web apps on Azure and learn how to configure Azure App service</td>
+	  </tr>
+  </table>
 
 ## Data 
 - **[Azure SQL Overview](https://azure.microsoft.com/en-us/documentation/articles/sql-database-technical-overview/)** – Gain an overview on SQL and how to create a SQL DB on Azure.
@@ -132,19 +132,18 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[DocumentDB](https://azure.microsoft.com/en-us/documentation/services/documentdb/)** – Learn about this fully managed NoSQL database service and how to build and manage DocumentDB applications.
 - **[MongoDB on Azure](https://docs.mongodb.com/ecosystem/platforms/windows-azure/)** – Learn about MongoDB on Azure and deployment recommendations.
 
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-hover">
-	<tr>
-	  <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/">Import data to DocumentDB with the Database Migration tool</a></b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
-	  <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/">Install MongoDB on a Windows VM</a></b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
-          <td valign="top"><b><a href="https://docs.mongodb.com/v3.0/administration/install-on-linux/">Install MongoDB on Linux</a></b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
-          <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/">Create a web app that connects to MongoDB</a></b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
+<h3><i> Tutorials and Sample code</i></h3>
+  <table class="table table-bordered table-hover">
+	  <tr>
+	    <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-import-data/">Import data to DocumentDB with the Database Migration tool</a></b> – Learn how to use the open source DocumentDB data migration tool to import data to Azure DocumentDB</td>
+	    <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-install-mongodb/">Install MongoDB on a Windows VM</a></b> – Learn how to install MongoDB on a Windows VM in Azure.</td>
+      <td valign="top"><b><a href="https://docs.mongodb.com/v3.0/administration/install-on-linux/">Install MongoDB on Linux</a></b> - Learn how to install MongoDB on a Linux VM in Azure.</td>
+      <td valign="top"><b><a href="https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-store-data-mongodb-vm/">Create a web app that connects to MongoDB</a></b> – Learn how to create a web page in Azure that connects to MongoDB running on a VM.</td>
 	  </tr>
-     <tr>
-          <td colspan="4" valign="top" align="left"><b><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials">SQL DB and Elastic pool feature tutorials</a></b> – simple step-by-start tutorial for different SQL feature areas</td>
-     <tr>	  
-     </table>
-
+    <tr>
+      <td colspan="4" valign="top" align="left"><b><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-explore-tutorials">SQL DB and Elastic pool feature tutorials</a></b> – simple step-by-start tutorial for different SQL feature areas</td>
+    <tr>	  
+  </table>
      
 ## Intelligence & Analytics *(incl. Machine learning and Cognitive services)*
 - **[Azure HDInsight](https://azure.microsoft.com/en-us/services/hdinsight/)** - An introduction to Hadoop on Azure HDInsight, its ecosystem, and big data. Learn about the Hadoop components, common terminology, and scenarios for big data analysis.
@@ -155,24 +154,23 @@ Platform as a Service (PaaS) resources are Azure services which are built for mo
 - **[Get started with Microsoft Cognitive Services](https://channel9.msdn.com/Events/Connect/2016/102)** – Learn how to easily add powerful artificial intelligence capabilities to your applications with Microsoft Cognitive Services.  See [Cognitive Services] (http://www.microsoft.com/cognitive) for more information.
 - **[Cognitive Services: Making AI Easy](https://channel9.msdn.com/Events/Machine-Learning-and-Data-Sciences-Conference/Data-Science-Summit-2016/MSDSS08)** – The rise of machine learning has produced an explosion of APIs to make your applications more intelligent.  Learn about more than 20 Cognitive Services APIs.  You'll see powerful demos, experience the simplicity of calling this code, and get ideas for adding this functionality to your own applications.
 
-
-  <h3><i> Tutorials and Sample code</i></h3>
-     <table class="table table-bordered table-striped table-hover">
-	<tr>
-	  <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4">Data Analysis using Hadoop</a></b>  – Microsoft Imagine course content - learn how to use Hive for Big Data Analysis</td>
-          <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5">Data Science and Machine Learning</a></b> – Microsoft Imagine course content - learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
-	  </tr>
-     </table>
+<h3><i> Tutorials and Sample code</i></h3>
+  <table class="table table-bordered table-striped table-hover">
+	  <tr>
+	    <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module4">Data Analysis using Hadoop</a></b>  – Microsoft Imagine course content - learn how to use Hive for Big Data Analysis</td>
+      <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary%20Course%20Content/Module5">Data Science and Machine Learning</a></b> – Microsoft Imagine course content - learn fundamental concepts of machine learning and use Spark to predict the trend and patterns of massive data sets</td>
+    </tr>
+  </table>
 
 ## Internet of Things
 - **[Azure IoT suite documentation](https://azure.microsoft.com/en-us/documentation/suites/iot-suite/)** - Starting point to learning and using the Azure IoT suite.
-  <h3><i> Tutorials and Sample code</i></h3>
-    <table class="table table-bordered table-striped table-hover">
-        <tr>
-	  <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6">IoT Microsoft Imagine course content</a></b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
-	  <td valign="top"><b><a href="https://azure.microsoft.com/en-us/campaigns/mydriving/">MyDriving App IoT sample</a></b> – MyDriving app uses a wide range of Azure services to process and analyze car telemetry data for both real-time insights and long-term patterns and trends</td>
-	  </tr>
-     </table>
+<h3><i> Tutorials and Sample code</i></h3>
+  <table class="table table-bordered table-striped table-hover">
+    <tr>
+      <td valign="top"><b><a href="https://github.com/MSFTImagine/computerscience/tree/master/Complimentary Course Content/Module6">IoT Microsoft Imagine course content</a></b> – learn how to collect streaming data from IoT devices and analyze the streaming data</td>
+	    <td valign="top"><b><a href="https://azure.microsoft.com/en-us/campaigns/mydriving/">MyDriving App IoT sample</a></b> – MyDriving app uses a wide range of Azure services to process and analyze car telemetry data for both real-time insights and long-term patterns and trends</td>
+    </tr>
+  </table>
 
 # Cloud Architecture
 -	**[Cloud Patterns & Practices](https://aka.ms/mspnp)** - Best practices for building cloud solutions. Including checklists and design patterns. 
